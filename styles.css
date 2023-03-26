@@ -1,0 +1,451 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(33, 61, 70);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Total Design Layout Division */
+
+.outer-layout{
+    width:75%;
+    margin-bottom:30px;
+}
+
+/* Top Heading Div Starting Point */
+
+.inner-layout{
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /* border:2px solid green; */
+}
+
+.walk-image{
+    width:80%;
+}   
+
+.img-div{
+    background-color:rgb(0, 187, 231);
+    width:110px;
+    height:110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    border:5px solid rgb(33, 61, 70);    
+}
+
+.white-layer{
+    background-color: white;
+    padding:10px;
+    border-radius: 50%;
+    margin-right:30px;
+}
+
+.first-para{
+    color:rgb(255, 0, 80);
+    font-family:'Fira Sans', sans-serif;
+    font-size:7rem;
+    font-weight:900;
+    margin:-20px 0px -20px 0;
+    letter-spacing: 2px;
+
+}
+.tag-line{
+    color:white;
+    font-family:'Fira Sans', sans-serif;
+    font-size:1.9rem;
+    font-weight:bolder;
+    margin-top:-20px;
+    letter-spacing: 1px;
+}
+
+/* Top Heading Div Ends */
+
+/* Second OverAll Division Starts */
+
+.second-div{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 40px 0;
+}
+
+/* Second OverAll Division Ends */
+
+/* First Div of Second Box Starts*/
+
+.second-first{
+    background-color:rgb(255, 140, 0);
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+
+.second-first p i {
+    color:rgb(33, 61, 70);
+    font-size:3rem;
+    margin: 0 5px 0 5px;
+}
+
+.second-first p, .second-second p {
+    color:white;
+    font-family:'Roboto', sans-serif;
+}
+
+.second-first p i:nth-child(3){
+    color:red;
+
+}
+
+.second-first p:nth-child(2){
+    font-size:4rem;
+    font-weight:900;
+}
+
+/* Mixed Code to save time */
+
+.second-first p:nth-child(3),
+.second-first p:nth-child(5),
+.second-second p:nth-child(4),
+.second-second p:nth-child(6){
+    font-size:1.3rem;
+    margin: 10px 0;
+}
+
+.bold{
+    font-weight:bolder;
+}
+
+.second-first p:nth-child(4),.second-second p:nth-child(5){
+    font-size:1.8rem;
+    font-weight:900;
+    /* margin: 5px 60px; */
+}
+
+/* First Div of Second Box Ends */
+
+/* Second Div of Second Box Starts */
+
+.second-second{
+    background-color:rgb(0, 187, 232);
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+
+.second-second p:nth-child(1){
+    font-size:1.5rem;
+    margin-bottom:10px;
+}
+
+.second-second p:nth-child(2),.second-second p:nth-child(3){
+    font-size:4rem;
+    font-weight:900;
+}
+
+.second-second p:nth-child(2) i{
+    color:rgb(33, 61, 70);  
+}
+
+.second-second p:nth-child(6) a{
+    color:white;
+}
+
+/* Second Div of Second Box Ends */
+
+/* Third Div Starts */
+
+.effects-div{
+    background-color: rgb(255, 0, 82);
+    padding:13px;
+}
+
+.top-div{
+    display: flex;
+}
+
+.effects-div p, .fourth-div p{
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size:2rem;
+}
+
+.symbols{
+    color:rgb(33, 61, 70); 
+}
+
+.symbol-div-1,
+.symbol-div-2{
+    width:100%;
+    padding:10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+}   
+
+.symbol-div-2 div{
+    margin:0 20px;
+}
+
+.symbol-div-2 div p:nth-child(1){
+    text-align:center;
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+.symbol-div-2 div p:nth-child(2){
+    font-size: 1.5rem;
+}
+
+.bottom-div{
+    padding:10px 10px;
+}
+
+.bottom-div p,
+.fourth-div p:nth-child(2),
+.fourth-div p:nth-child(3),
+.fourth-right-div p{
+    font-size:1.5rem;
+    font-weight:400;
+    text-align: justify;
+}
+
+.bottom-div p a, .fourth-div p a,.sixth-div a{
+    color:white;
+}
+
+/* Third Div Ends */
+
+/* Fourtth Div Styling Starts */
+
+.fourth-div{
+    background-color: rgb(0, 187, 232);
+    margin: 40px 0 0 0;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    display:flex;
+}
+
+.fourth-left-div p:nth-child(1),
+.fourth-left-div p:nth-child(2){
+    margin-bottom:10px;
+}
+
+.fourth-left-div,.fourth-right-div{
+    width:50%;
+    margin:30px
+}
+
+.fourth-right-div p:nth-child(1){
+    margin-top:50px;
+}
+
+.fourth-right-div p:nth-child(2){
+    margin-top:30px;
+}
+
+.warning{
+    position:relative;
+    top:5px;
+    margin-left:20px;
+    width:40px;
+}
+
+/* Fourtth Div Styling Ends */
+
+/* fifth Div Styling Starts */
+
+.fifth-div,.sixth-div,.seventh-div,.div-eight{
+    margin-top:40px;
+    display: flex;
+    color:white;
+    font-family:'Roboto', sans-serif;
+}
+
+.fifth-left-div,.fifth-right-div{
+    width:50%;
+    padding:25px;
+    text-align:center;
+}
+
+.fifth-left-div p:nth-child(1),
+.fifth-right-div p:nth-child(2){
+    font-size:2rem;
+    font-weight:bolder;
+    margin-bottom:10px;
+}
+
+.fifth-left-div{
+    background-color: rgb(255, 0, 82);
+}
+
+.fifth-left-div p:nth-child(2),
+.fifth-left-div p:nth-child(4),
+.fifth-right-div p:nth-child(3),
+.fifth-right-div p:nth-child(5){
+    font-size:1.5rem;
+}
+
+.fifth-left-div p:nth-child(3),
+.fifth-right-div p:nth-child(4){
+    font-size:3rem;
+    font-weight:bolder;
+    margin:10px 0;
+}
+
+.fifth-right-div{
+    background-color: rgb(255, 140, 0);
+}
+
+.food{
+    margin-top:15px;
+    width:100px;
+}
+
+.fifth-right-div p img{
+    margin-top:5px;
+}
+
+/* fifth Div Styling Ends */
+
+/* Sixth Div Starts*/
+
+.sixth-div{
+    background-color: rgb(0, 187, 232);
+}
+
+.sixth-left-div{
+    width:50%;
+    padding:20px;
+    margin-left:40px;
+}
+
+.sixth-left-div p:nth-child(1),.seventh-left-div{
+    font-size:4rem;
+    font-weight:bolder;
+    text-align:justify
+}
+
+.sixth-left-div p:nth-child(2),
+.seventh-left-div p:nth-child(2){
+    font-size:1.4rem;
+}
+
+.sixth-right-div{
+    width:30%;
+}
+
+.sixth-right-div img{
+    margin-left:30%;
+    width: 200px;
+}
+
+/* Sixth Div Ends*/
+
+/* Seventh Div Starts */
+
+.seventh-div{
+    display:flex;
+    background-color:rgb(255, 140, 0);
+    margin-top:40px;
+    font-family:'Roboto', sans-serif;
+}
+
+.seventh-left-div{
+    width:60%;
+    padding:40px;
+}
+
+.seventh-right-div{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-left-div P a{
+    color:white;
+}
+
+.cycle{
+    width:50%;
+}
+
+
+/* Seventh Div Ends */
+
+/* Eight-th Div starts */
+
+.div-eight{
+    margin-bottom:50px;
+}
+
+.eight-left,.eight-right{
+    width:60%;
+    padding:20px;
+    font-family:'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+
+.eight-left{
+    background-color:rgb(0, 187, 232);
+}
+
+.eight-left :nth-child(2){
+    padding:0 30px 0 30px;
+    text-align:center;
+}
+
+.eight-left :nth-child(3){
+    font-size:4rem;
+    text-align:center;
+    margin-top:15px;
+    line-height:60px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.money-bag{
+    width:25%;
+    margin-left:35%;
+    margin-bottom:10px;
+}
+
+.eight-right{
+    background-color:rgb(255, 0, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+}
+
+.eight-right div:nth-child(1) p{
+    font-size:2rem;
+    font-weight:900;
+    text-align:center;
+}
+
+.eight-right div:nth-child(1){
+margin: 0 30px;
+}
+
+.eight-right div:nth-child(2){
+    text-align: center;
+    margin-top:10px;
+}
+
+.eight-right div p{
+    margin: 5px 0 5px 0;
+}
+
+/* Eight-th Div ends */
+
